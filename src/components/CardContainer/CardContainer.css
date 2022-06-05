@@ -1,0 +1,13 @@
+#cardContainer {
+    width: 45%;
+    min-width: 400px;
+    height: 800px;
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 720px) {
+    #cardContainer {
+        height: 650px;
+        min-width: 300px;
+    }
+}

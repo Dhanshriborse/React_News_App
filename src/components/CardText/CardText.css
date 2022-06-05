@@ -1,0 +1,30 @@
+#textContainer {
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 45%;
+    padding: 0 1em;
+}
+
+#cardTitle {
+    margin-top: 0;
+    padding-top: 1em;
+}
+
+#cardButton {
+    background-color: darkcyan;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 720px) {
+    #cardDescription {
+        display: none;
+    }
+    #textContainer {
+        height: 40%;
+    }
+}
